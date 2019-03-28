@@ -1,0 +1,477 @@
+<html>
+    <head>
+        <title>FOODWEBSITE</title>
+<link rel="stylesheet" type="text/css" href="foodwebstyle.css">
+<style type="text/css" rel="stylesheet">
+    .slideanim{visibility:hidden;}
+    .slide{
+        animation-name: slide;
+        -webkit-animation-name: slide;
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        visibility: visible;
+        
+    }
+    @keyframes slide{
+        0%   {
+            opacity: 0;
+            -webkit-transform:translateY(70%);
+        }
+        100%  {
+            opacity: 1;
+            -webkit-transform:translateY(0%);
+            
+        } 
+    }
+    @webkit-keyframes slide{
+        0%   {
+            opacity: 0;
+            -webkit-transform:translateY(70%);
+        }
+        100%  {
+            opacity: 1;
+            -webkit-transform:translateY(0%);
+        
+            }
+    }
+        </style>       
+        
+<link href="font-awesome-4.7.0/css/font-awesome.mini.css" rel="stylesheet">
+
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap.min.js"></script>
+        </head>
+    <script>
+        function validate()
+        {
+            var lifeofpie= document.getElementById("lifeofpie");
+            var username=document.getElementById("username").value;
+            var pwd=document.getElementById("pwd").value;
+            var mail=document.getElementById("mail").value;
+            var phone=document.getElementById("phone").value;
+            if(username =="" || pwd=="" || mail=="" || phone=="")
+               {
+                lifeofpie.innerHTML="<span style='color:red;font-weight:bold;'> please fill all the requirements</span>"; 
+               }
+            else if(username.length<3)
+                    {
+                    lifeofpie.innerHTML="<span style='color:red;font-weight:bold;'>username is too short</span>"; 
+                    }
+            else if(pwd.length<4)
+                {
+                    lifeofpie.innerHTML="<span style='color:red;font-weight:bold;'>your password must be 8 to 10 digits</span>"; 
+                }
+            else if(mail.length<4)
+                {
+                    lifeofpie.innerHTML="<span style='color:red;font-weight:bold;'>mail id is incorrect</span>"; 
+                }
+            else if(phone.length<10)
+                {
+                    lifeofpie.innerHTML="<span style='color:red;font-weight:bold;'>mobile no must be atleast of 10 digits</span>"; 
+                }
+            else 
+                {
+                    lifeofpie.innerHTML="<span style='color:green;font-weight:bold;'>your form has been submitted successfully</span>"; 
+                }
+
+        }
+    </script>
+
+    <body>
+        <header class="header" >
+            <nav class="navbar navbar-custom navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+
+                       <!-- <a href="" class="navbar-brand">LOGO</a>-->
+                           <!-- <img src="logo.jpg">-->
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    <div class="row">
+                    <div class="collapse navbar-collapse" id="navi"></div>
+                    <ul class="main-nav">
+                    <li> <a href=""> HOME</a></li>
+                    <li> <a href=""> FEATURES </a></li>
+                    <li> <a href=""> MENU</a>
+                        <ul>
+                            <li> <a href=""> OUR MENU</a></li>
+                            <li> <a href=""> HOME DELIVERY </a></li>
+                        </ul> </li>
+                    <li> <a href=""> EVENTS</a>
+                        <ul>
+                            <li> <a href=""> BANQUET HALL</a></li>
+                            <li> <a href=""> CATERING</a></li>
+                        </ul></li>
+                    <li> <a href=""> HOW IT WORKS</a></li>
+                    <li> <a href=""> CITIES</a></li>
+                    <li> <a href=""> CONTACT US</a></li>
+                    </ul>
+                       </div>
+                    </div>
+            </nav>
+            <div class="container">
+            <div class="row">
+                    <div class="hero-text">
+                    <h1> GOOD BYE JUNK FOOD</h1>
+                    <p class="big-text"> HELLO SUPER HEALTHY MEALS</p>
+                    <p>Order from your near by place at any time</p>
+                        <div class="button-awesome">
+                    <a class="btn btn-first" href="#">I'm Hungry</a>
+                    <a class="btn btn-second" href="#">Show me More</a>
+                     <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+                            </div>
+                   </div>
+                </div>
+                <div class="col-sm-6">
+                </div>
+                
+                </div>
+        </header>
+        <section class="features slideanim">
+        <h3 class="text-center">GET THE FOOD FAST NOT THE FAST FOOD</h3>
+            <p class="copy">
+                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week, and then demoted to "pre-release" status, as it had two rather big regressions: 32-bit Git Bash crashed, and git:// was broken.
+            </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"> 
+                 <i class="fa fa-camera"></i>
+
+                    <h4> Have Healthy Meals</h4>
+                    <p class="arranging">
+                        Please note that Git for Windows v2.19.2 was offered as a full release only for about a week, and then demoted to "pre-release" status, as it had two rather big regressions: 32-bit Git Bash crashed, and git:// was broken.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-certificate"></i>
+                    <h4> Have Healthy Meals</h4>
+                    <p class="arranging">
+                        Please note that Git for Windows v2.19.2 was offered as a full release only for about a week, and then demoted to "pre-release" status, as it had two rather big regressions: 32-bit Git Bash crashed, and git:// was broken.
+                    </p>
+                </div>
+                
+                <div class="col-md-3">
+                <i class="fa fa-envelope"></i>
+
+                    <h4> Have Healthy Meals</h4>
+                    <p class="arranging">
+                        Please note that Git for Windows v2.19.2 was offered as a full release only for about a week, and then demoted to "pre-release" status, as it had two rather big regressions: 32-bit Git Bash crashed, and git:// was broken.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                 <i class="fa fa-cog"></i>
+
+                    <h4> Have Healthy Meals</h4>
+                    <p class="arranging">
+                        Please note that Git for Windows v2.19.2 was offered as a full release only for about a week, and then demoted to "pre-release" status, as it had two rather big regressions: 32-bit Git Bash crashed, and git:// was broken.
+                    </p>
+                </div>
+            </div>
+            
+            
+            </div>
+        
+        
+        </section>
+        <section class="meals slideanim">
+            <ul class="meal-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="goodfood.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="berries.jpg">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="meal-photo">
+                        <img src="tacofood.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="plumcake.jpg" width="300" height="200">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section class="Mobile slideanim">
+            <h3 class="text-center">HOW IT WORKS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pic">
+                        <img src="phoneapp.JPG">
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="work-step">
+                            <div>1</div>
+                            <p>
+                                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week<br>
+                                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week
+                            </p>
+                            <div>2</div>
+                            <p>
+                                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week<br>
+                                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week
+                            </p>
+                            <div>3</div>
+                            <p>
+                                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week<br>
+                                Please note that Git for Windows v2.19.2 was offered as a full release only for about a week
+                            </p>
+                            <a href=""><img src="googleplay.JPG"></a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+                 
+        </section>
+        <section class="cities slideanim">
+        <h3 class="text-center">WE ARE CURRENTLY IN THESE CITIES</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="berries.jpg">
+                        <h4> MUMBAI</h4>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                    </div>
+                    <div class="col-md-3">
+                    <img src="berries.jpg">
+                        <h4> DELHI</h4>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                    </div>
+                    <div class="col-md-3">
+                <img src="berries.jpg">
+                        <h4> HYDERABAD</h4>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                    </div>
+                    <div class="col-md-3">
+            <img src="berries.jpg">
+                        <h4> BANGALURU</h4>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                        <p><i class="fa fa-cog"></i>1000+ Happy Customers </p>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <section class="testimonials slideanim">
+            <h3 class="text-center"> OUR CUSTOMERS CAN'T LIVE WITHOUT US</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <blockquote>
+                            <p>
+                                "I wanted to thank you for a wonderful dining experience. The food and service was great, not to mention the atmosphere felt like we were at a big family dinner."<br>
+
+                                                         
+                                
+                                
+                                
+                                <cite><img src="berries.jpg"> - Philip Hessel</cite>
+                            </p>
+                            
+                        </blockquote>
+                        </div>
+                        <div class="col-md-4">
+                        <blockquote>
+                            <p>
+                                I am very pleased with the service and the quality of food is very good. I recommend this place to all my friends.<br>
+                   
+                                <cite><img src="berries.jpg">-Ramesh</cite>
+                            </p>
+                            
+                        </blockquote>
+                        </div>
+                        <div class="col-md-4">
+                        <blockquote>
+                            <p>
+                                "Every time I come, you guys make me feel like I'm back home
+in South Carolina! Love the people and the food!"<br>
+
+
+                                
+                                
+                                
+                                
+                                <cite><img src="berries.jpg">- Christopher "Jazz"</cite>
+                            </p>
+                            
+                        </blockquote>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div>        </section>
+        
+        
+        <section class="form slideanim">
+            <div class="container">
+                    <h3 class="text-center"> WE WILL BE HAPPY TO HEAR FROM U</h3>
+                </div>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <label>Username</label>
+                    <div id="lifeofpie" style= "height:40px;"></div>
+                    <input type="text" placeholder="Username" id="username" class="form-control" required><br>
+                    <label>Password</label>
+                    <input type="password" placeholder="Password" id="pwd"class="form-control" required><br>
+                    <label>Email</label>
+                    <input type="email" placeholder="email-id" id="mail" class="form-control" required><br>
+                    <label>Mobile</label>
+                    <input type="tel" placeholder="mobile no:" id="phone"class="form-control"><br>
+                </div>
+            
+            <div class="col-md-8">
+                <textarea class="form-control" rows="6" placeholder="comments"></textarea><br>
+                <input type="button" value="submit"class="btn btn-warning btn-block" onclick="validate()">
+                
+            </div>
+            
+            </div>
+        </section>
+        
+          <section class="google"> 
+             <div class="container-fluid">
+                 <h3 class="text-center"> HUNGRY YET?<br>WE LOOK FORWARD TO SEEING U</h3>
+             <div id="googleMap" style="height:400px; width:100%;"> 
+             
+              
+              <!-- Add Google Maps -->
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script>
+            var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+            function initialize() {
+            var mapProp = {
+              center:myCenter,
+              zoom:12,
+              scrollwheel:false,
+              draggable:false,
+              mapTypeId:google.maps.MapTypeId.ROADMAP
+              };
+
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+            var marker = new google.maps.Marker({
+              position:myCenter,
+              });
+
+            marker.setMap(map);
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+              </div>
+              </div>
+              
+            
+          </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="social-icon">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                        
+                        </div>
+                        <p>
+                            copyright Powered by Evolution in DesignZ  &copy; 2019 <a href="">FOOD FOR U</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 pull-right">
+                        <a href="#home"><i class="fa fa-angle-up slideanim"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            $(document).ready(function(){
+              // Add smooth scrolling to all links in navbar + footer link
+              $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 900, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+                });
+              });
+            })
+ 
+ 
+        
+                   $(window).scroll(function() {
+                   $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                  $(this).addClass("slide");
+                }
+              });
+              });
+
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+        
+        
+    </body>
+        
+</html>
